@@ -55,3 +55,27 @@ Para configurar uma rede utilizando endereços IP privados, é essencial configu
 
 Na configuração dos dispositivos, é importante utilizar endereços IP dentro das faixas reservadas para uso privado, garantindo o funcionamento adequado da rede local.
 
+# Funções do Endereço IP e Máscara de Sub-rede
+
+## Endereço IP (Internet Protocol)
+
+O endereço IP (Internet Protocol) é um identificador único atribuído a cada dispositivo em uma rede. Ele permite a comunicação e identificação exclusiva de dispositivos em uma rede. Cada endereço IP é composto por uma sequência de números separados por pontos para IPv4 (por exemplo, "192.168.0.1") ou grupos de dígitos hexadecimais para IPv6 (por exemplo, "2001:0db8:85a3:0000:0000:8a2e:0370:7334").
+
+### Funções do Endereço IP
+
+- **Identificação do Dispositivo**: Cada dispositivo na rede é identificado de forma exclusiva pelo seu endereço IP.
+- **Roteamento de Pacotes**: Permite o encaminhamento de pacotes de dados de origem para destino na Internet.
+- **Comunicação**: Facilita a comunicação entre dispositivos em uma rede e na Internet.
+- **Acesso a Serviços e Aplicações**: Permite que os dispositivos acessem serviços e aplicativos na rede e na Internet.
+
+## Máscara de Sub-rede
+
+A máscara de sub-rede é uma sequência de bits que divide um endereço IP em duas partes: a parte da rede e a parte do host. Ela ajuda a identificar a rede à qual um dispositivo pertence e quantos hosts podem existir nessa rede.
+
+### Funções da Máscara de Sub-rede
+
+- **Divisão da Rede**: Permite dividir uma rede em sub-redes menores para melhorar o gerenciamento da rede.
+- **Identificação da Rede**: Ajuda a identificar a rede à qual um dispositivo pertence.
+- **Determinação do Host**: Ajuda a determinar o número máximo de hosts que podem ser alocados em uma rede.
+
+Por exemplo, se tivermos um endereço IP "192.168.0.1" com uma máscara de sub-rede "255.255.255.0", os primeiros 24 bits são reservados para a identificação da rede ("192.168.0") e os últimos 8 bits são para identificação de hosts (o último byte, "1").
