@@ -82,11 +82,11 @@ Por exemplo, se tivermos um endereço IP "192.168.0.1" com uma máscara de sub-r
 
 # Conversão de Endereço IP para Binário
 
-Este README explica detalhadamente como converter o endereço IP "192.168.0.1" do formato decimal para o formato binário. A conversão é feita octeto por octeto, onde cada octeto é um conjunto de 8 bits.
+Este README descreve a conversão do endereço IP "192.168.0.1" do formato decimal para binário, seguindo o padrão de 8 bits por octeto.
 
 ## Endereço IP "192.168.0.1"
 
-O endereço IP "192.168.0.1" é composto por quatro octetos. Cada octeto representa um número decimal entre 0 e 255. Vamos converter cada octeto para binário.
+O endereço IP "192.168.0.1" é composto por quatro octetos. Cada octeto representa um número decimal entre 0 e 255.
 
 ### Conversão para Binário
 
@@ -104,9 +104,7 @@ O endereço IP "192.168.0.1" é composto por quatro octetos. Cada octeto represe
 
 ### Endereço IP em Binário
 
-Juntando os octetos convertidos, obtemos o endereço IP "192.168.0.1" em binário:
+O endereço IP "192.168.0.1" em binário é:
+\[ 11000000.10101000.00000000.00000001_{2} \]
 
-\[ 192.168.0.1_{10} = 11000000.10101000.00000000.00000001_{2} \]
-
-Este é o formato binário do endereço IP "192.168.0.1". Cada conjunto de oito bits representa um octeto, e é assim que os computadores interpretam endereços IP internamente.
-
+Este é o formato binário do endereço IP "192.168.0.1". Cada conjunto de oito bits representa um octeto.
