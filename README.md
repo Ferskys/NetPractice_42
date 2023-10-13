@@ -79,3 +79,34 @@ A máscara de sub-rede é uma sequência de bits que divide um endereço IP em d
 - **Determinação do Host**: Ajuda a determinar o número máximo de hosts que podem ser alocados em uma rede.
 
 Por exemplo, se tivermos um endereço IP "192.168.0.1" com uma máscara de sub-rede "255.255.255.0", os primeiros 24 bits são reservados para a identificação da rede ("192.168.0") e os últimos 8 bits são para identificação de hosts (o último byte, "1").
+
+# Conversão de Endereço IP para Binário
+
+Este README explica detalhadamente como converter o endereço IP "192.168.0.1" do formato decimal para o formato binário. A conversão é feita octeto por octeto, onde cada octeto é um conjunto de 8 bits.
+
+## Endereço IP "192.168.0.1"
+
+O endereço IP "192.168.0.1" é composto por quatro octetos. Cada octeto representa um número decimal entre 0 e 255. Vamos converter cada octeto para binário.
+
+### Conversão para Binário
+
+1. **Primeiro Octeto (192)**:
+   - \(192_{10}\) em binário é \(11000000_{2}\).
+
+2. **Segundo Octeto (168)**:
+   - \(168_{10}\) em binário é \(10101000_{2}\).
+
+3. **Terceiro Octeto (0)**:
+   - \(0_{10}\) em binário é \(00000000_{2}\).
+
+4. **Quarto Octeto (1)**:
+   - \(1_{10}\) em binário é \(00000001_{2}\).
+
+### Endereço IP em Binário
+
+Juntando os octetos convertidos, obtemos o endereço IP "192.168.0.1" em binário:
+
+\[ 192.168.0.1_{10} = 11000000.10101000.00000000.00000001_{2} \]
+
+Este é o formato binário do endereço IP "192.168.0.1". Cada conjunto de oito bits representa um octeto, e é assim que os computadores interpretam endereços IP internamente.
+
